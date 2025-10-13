@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "A young woman, brightly dressed, confidently pulls her sleek Skybag trolley through a bustling, sunlit airport terminal. She pauses, looking out a large window at planes taking off, a hopeful smile on her face. She checks her boarding pass, then looks forward with determination.",
+        "location": "Modern Airport Terminal, Departure Gate",
+        "emotion": "Excitement, Anticipation, Hope",
+        "Voiceover": {
+            "English": "For the spirit that dares to explore, for every new horizon.",
+            "Hindi": "उस हौसले के लिए जो नए रास्ते तलाशता है, हर नए क्षितिज के लिए।"
+        }
+    },
+    {
+        "id": 2,
+        "description": "A young professional (could be male or female) in smart casuals walks purposefully through a vibrant, modern city square during peak hours. Their stylish Skybag backpack sits comfortably. They glance at their phone, then look up at a towering skyscraper, a look of focus and ambition.",
+        "location": "Urban Cityscape, Business District",
+        "emotion": "Confidence, Determination, Ambition",
+        "Voiceover": {
+            "English": "For the ambition that builds tomorrow, for every goal you conquer.",
+            "Hindi": "उस लगन के लिए जो कल बनाती है, हर लक्ष्य को जीतने के लिए।"
+        }
+    },
+    {
+        "id": 3,
+        "description": "A group of friends (diverse age range) are on a scenic mountain hike. One person, with a durable Skybag duffel slung over their shoulder, reaches a stunning viewpoint. They place their bag down, take out a camera, and capture the breathtaking landscape, sharing a joyful moment with friends.",
+        "location": "Scenic Mountain Trail / Nature Reserve",
+        "emotion": "Joy, Freedom, Connection, Wonder",
+        "Voiceover": {
+            "English": "For the moments that refresh your soul, for every story you create.",
+            "Hindi": "उन पलों के लिए जो आपकी आत्मा को ताज़ा करते हैं, हर कहानी के लिए जो आप रचते हैं।"
+        }
+    }
+]

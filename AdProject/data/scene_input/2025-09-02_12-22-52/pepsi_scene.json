@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "A young woman, sweat glistening on her forehead, puts down her paint brush, stepping back to admire a vibrant, finished mural on a city wall. She smiles, a look of immense satisfaction. She reaches for a chilled Pepsi bottle from a cooler nearby, takes a long, satisfying sip.",
+        "location": "Urban alleyway, vibrant street art.",
+        "emotion": "Satisfaction, accomplishment, relief, joy.",
+        "Voiceover": {
+            "English": "Every stroke, every effort, a piece of your soul on display. This is your masterpiece.",
+            "Hindi": "हर स्ट्रोक, हर कोशिश, आपकी आत्मा का एक टुकड़ा। यह आपकी कृति है।"
+        }
+    },
+    {
+        "id": 2,
+        "description": "A diverse group of friends (3-4 people) are laughing and high-fiving on a rooftop after successfully setting up a community garden. They look a bit tired but exhilarated. One friend pops open a can of Pepsi, passing it around, and they all take refreshing sips, sharing a moment of collective joy. Sunlight bathes them.",
+        "location": "City rooftop, community garden.",
+        "emotion": "Camaraderie, collective triumph, happiness, shared relief.",
+        "Voiceover": {
+            "English": "Together, you built something beautiful. Together, you made a difference.",
+            "Hindi": "साथ मिलकर, आपने कुछ खूबसूरत बनाया। साथ मिलकर, आपने बदलाव लाया।"
+        }
+    },
+    {
+        "id": 3,
+        "description": "A young man, dressed in smart casuals, looks out from his office window at a bustling city, a thoughtful yet determined expression on his face. He’s just closed a big deal or achieved a significant professional milestone. He turns, picks up a can of Pepsi from his desk, and takes a reflective, confident sip. A slight smile plays on his lips, looking towards future possibilities.",
+        "location": "Modern office, city skyline view.",
+        "emotion": "Determination, quiet confidence, forward-looking, reflection, ambition.",
+        "Voiceover": {
+            "English": "Your vision, your drive, shaping tomorrow. The journey continues.",
+            "Hindi": "आपकी दृष्टि, आपका जज़्बा, कल को आकार दे रहा है। यात्रा जारी है।"
+        }
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "A young child (around 5-7 years old) happily drinks a glass of Amul milk, a milk mustache forming. The scene transitions to the child a few years older, energetically playing cricket with friends in a park.",
+        "location": "A cozy home kitchen, then a sunny neighborhood park.",
+        "emotion": "Joy, innocence, energy, growth, health.",
+        "Voiceover": {
+            "English": "From the first sips of goodness to the boundless energy of childhood, Amul has always been there, nurturing every moment.",
+            "Hindi": "पोषण की पहली घूँट से लेकर बचपन की असीम ऊर्जा तक, अमूल हमेशा साथ रहा है, हर पल को पोषित करता रहा है।"
+        }
+    },
+    {
+        "id": 2,
+        "description": "A young woman (early 20s) is seen studying late at night, surrounded by books, a steaming cup of Amul coffee beside her. She then transitions to a modern office setting, confidently presenting her ideas, a small smile of achievement on her face.",
+        "location": "A quiet study room at night, then a sleek office conference room.",
+        "emotion": "Determination, focus, ambition, quiet triumph, intellectual growth.",
+        "Voiceover": {
+            "English": "Fuelling late-night studies and powering big dreams, Amul supports every step of your journey towards success.",
+            "Hindi": "देर रात की पढ़ाई को शक्ति देता, और बड़े सपनों को उड़ान भरता, अमूल आपकी सफलता की हर यात्रा में साथ देता है।"
+        }
+    },
+    {
+        "id": 3,
+        "description": "A multi-generational family (parents, kids, grandparents) gathered around a table, laughing and enjoying a festive meal together – parathas with Amul butter, a bowl of fruit with Amul Dahi, and a special dessert made with Amul cream. A wider shot shows them celebrating a festival (e.g., Diwali or Eid) with Amul sweets, joyfully exchanging them. अमूल: भारत के सपनों को पोषित करे। हर बूंद, हर दिन।",
+        "location": "A warm, inviting dining room; a brightly decorated living room/courtyard during a festival.",
+        "emotion": "Love, warmth, togetherness, joy, tradition, celebration, belonging.",
+        "Voiceover": {
+            "English": "In shared laughter, festive celebrations, and the warmth of family traditions, Amul brings everyone closer, enriching every memory.",
+            "Hindi": "साझा हँसी में, उत्सवों के जश्न में, और परिवार की गर्माहट में, अमूल सबको करीब लाता है, हर याद को समृद्ध करता है।"
+        }
+    }
+]

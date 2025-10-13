@@ -1,0 +1,43 @@
+{
+    "Product": "Dove",
+    "AdType": "General",
+    "Headline": "Beyond Skin Deep: Embrace Your Beautiful.",
+    "AdCopy": "Every day, a new opportunity to feel confident and cherished. Dove helps you celebrate the beauty that's uniquely yours.",
+    "Scenes": [
+        {
+            "id": 1,
+            "description": "A young woman, with diverse skin tone, steps out of the shower, gently wraps herself in a towel. She looks at her reflection in the mirror, not critically, but with a soft smile and contentment, touching her freshly moisturized arm. A bottle of Dove body wash/bar is visible on the counter.",
+            "location": "Modern, clean bathroom with warm lighting.",
+            "emotion": "Content, confident, self-assured, serene.",
+            "Voiceover": {
+                "English": "\"Life is a journey of discovery. Starting with yourself.\"",
+                "Hindi": "\"जीवन खोज की यात्रा है। जिसकी शुरुआत आपसे होती है।\""
+            }
+        },
+        {
+            "id": 2,
+            "description": "A mother (middle-aged) and her young child (around 5-7 years old) are sitting on a park bench. The child gently traces the lines on the mother's hand, then rests their head on her arm. The mother smiles warmly, looking at her child, then at her own soft, cared-for skin.",
+            "location": "Sunny, green park with families in the background.",
+            "emotion": "Loving, gentle, secure, joyful.",
+            "Voiceover": {
+                "English": "\"Every touch, every moment, deserves gentleness.\"",
+                "Hindi": "\"हर स्पर्श, हर पल, कोमलता का हकदार है।\""
+            }
+        },
+        {
+            "id": 3,
+            "description": "A diverse group of friends (men and women, varying ages and body types) are laughing and enjoying a casual outdoor gathering. One person is confidently striking a pose for a photo, another is sharing a heartfelt story, all comfortable and beaming in their own skin. The sun is setting, casting a warm glow.",
+            "location": "Lively outdoor cafe or rooftop garden.",
+            "emotion": "Connected, authentic, confident, vibrant, joyful.",
+            "Voiceover": {
+                "English": "\"Step out. Embrace who you are, truly.\"",
+                "Hindi": "\"बाहर निकलो। आप जो हैं, उसे पूरी तरह अपनाओ।\""
+            }
+        }
+    ],
+    "Voiceover": {
+        "English": "\"Dove understands that true beauty is unique, real, and radiates from within. It's about feeling confident and comfortable in your own skin, every single day. Celebrate your authentic self. Embrace your beautiful, with Dove.\"",
+        "Hindi": "\"डव समझता है कि सच्ची सुंदरता अनूठी, वास्तविक है और भीतर से चमकती है। यह हर दिन अपनी त्वचा में आत्मविश्वास और सहज महसूस करने के बारे में है। अपने प्रामाणिक स्वरूप का जश्न मनाएं। डव के साथ, अपनी सुंदरता को अपनाएं।\""
+    },
+    "TextOnScreen": "Dove: Embrace Your Beautiful."
+}

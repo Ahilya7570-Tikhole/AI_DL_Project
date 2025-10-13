@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "description": "Early morning, a young professional (female, early 30s) looks out her apartment window at a busy, smoggy city street with slow-moving traffic. She sighs, frustrated.",
+    "location": "Urban apartment window, view of congested road",
+    "emotion": "Frustration, stress",
+    "Voiceover": {
+      "English": "Tired of the daily grind? The noise, the fumes, the endless traffic?",
+      "Hindi": "रोजमर्रा की भागदौड़ से थक गए हैं? शोर, धुआं, और अंतहीन ट्रैफिक से?"
+    }
+  },
+  {
+    "id": 2,
+    "description": "She sits in an auto-rickshaw stuck in bumper-to-bumper traffic, looking stressed and checking her watch impatiently.",
+    "location": "Traffic jam, auto-rickshaw interior",
+    "emotion": "Stress, impatience",
+    "Voiceover": {
+      "English": "Your city commute shouldn't feel like a compromise.",
+      "Hindi": "शहर की आपकी यात्रा समझौता नहीं होनी चाहिए।"
+    }
+  },
+  {
+    "id": 3,
+    "description": "Cut to her smiling, riding an Ola Electric Scooter smoothly through open city lanes, bypassing traffic.",
+    "location": "City street, scooter in motion",
+    "emotion": "Relief, joy, empowerment",
+    "Voiceover": {
+      "English": "Introducing Ola Electric Scooter – freedom, style, and zero emissions.",
+      "Hindi": "पेश है ओला इलेक्ट्रिक स्कूटर – आज़ादी, स्टाइल और शून्य प्रदूषण।"
+    }
+  },
+  {
+    "id": 4,
+    "description": "She parks at the office, confidently walking in while others arrive late. The scooter stands shining in the background.",
+    "location": "Office building entrance, scooter parking area",
+    "emotion": "Confidence, pride",
+    "Voiceover": {
+      "English": "Make your commute smarter. Ola Electric – the future of urban mobility.",
+      "Hindi": "अपनी यात्रा को स्मार्ट बनाइए। ओला इलेक्ट्रिक – शहरी गतिशीलता का भविष्य।"
+    }
+  }
+]

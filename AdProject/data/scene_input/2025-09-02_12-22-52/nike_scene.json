@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "A young woman (20s) in Nike running gear, initially looking tired but determined, pushes through a morning run. Her stride becomes smoother, a faint smile appearing as the sun rises. Close-up on her Nike shoes hitting the pavement.",
+        "location": "Urban park at dawn.",
+        "emotion": "Determination, effort, growing exhilaration.",
+        "Voiceover": {
+            "English": "Every journey begins with a single step. Sometimes it's a struggle, sometimes a challenge. But within you, a spark ignites.",
+            "Hindi": "हर सफर एक कदम से शुरू होता है। कभी यह मुश्किल होता है, कभी चुनौती भरा। पर आपके भीतर, एक चिंगारी जलती है।"
+        }
+    },
+    {
+        "id": 2,
+        "description": "A man (30s-40s) in Nike basketball shorts and a t-shirt, after what appears to be a long day, takes a deep breath before driving towards the hoop. He flawlessly executes a jump shot, the ball swishing through the net. He picks up the ball with a sense of satisfaction.",
+        "location": "Outdoor basketball court, evening, under floodlights.",
+        "emotion": "Focus, release, satisfaction, passion.",
+        "Voiceover": {
+            "English": "It's about finding your rhythm, your release. The dedication to chase what makes you feel alive, no matter the day.",
+            "Hindi": "यह अपनी ताल, अपनी मुक्ति खोजने के बारे में है। उस जुनून के पीछे भागना जो आपको जीवंत महसूस कराता है, चाहे दिन कैसा भी हो।"
+        }
+    },
+    {
+        "id": 3,
+        "description": "A diverse group (a family: mother, father, child, all wearing Nike apparel) are laughing and running freely on a sandy beach. They playfully chase each other, the child leading the way, leaving footprints in the sand as the sun sets.",
+        "location": "Sandy beach at sunset.",
+        "emotion": "Joy, connection, freedom, shared experience.",
+        "Voiceover": {
+            "English": "And in those shared moments, those collective triumphs, you realize you're part of something bigger. Together, you rise.",
+            "Hindi": "और उन साझा पलों में, उन सामूहिक जीतों में, आप महसूस करते हैं कि आप कुछ बड़े का हिस्सा हैं। साथ मिलकर, आप ऊपर उठते हैं।"
+        }
+    }
+]

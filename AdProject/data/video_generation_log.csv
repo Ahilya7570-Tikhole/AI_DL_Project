@@ -1,0 +1,144 @@
+scene_name,status,error
+2025-09-02_12-19-30,failure,name 'types' is not defined
+2025-09-02_12-22-52,failure,name 'types' is not defined
+2025-09-07 05:44:36.916737,/content/gdrive/MyDrive/AdProject/data/scene_input/amul_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/amul_scene.mp4,570.41,failure,Output file not created: /content/gdrive/MyDrive/AdProject/data/generated_videos/amul_scene.mp4
+2025-09-07 05:47:11.470106,/content/gdrive/MyDrive/AdProject/data/scene_input/dove_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/dove_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/dove_scene.mp4,724.94,failure,Output file not created: /content/gdrive/MyDrive/AdProject/data/generated_videos/dove_scene.mp4
+2025-09-07 05:49:06.257252,/content/gdrive/MyDrive/AdProject/data/scene_input/skybag_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/skybag_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4,839.73,failure,"Deforum script failed:
+Traceback (most recent call last):
+  File ""/content/deforum-stable-diffusion/Deforum_Stable_Diffusion.py"", line 122, in <module>
+    root.model, root.device = load_model(root, load_on_run_all=True, check_sha256=True, map_location=root.map_location)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/content/deforum-stable-diffusion/helpers/model_load.py"", line 253, in load_model
+    model = load_model_from_config(local_config, f""{ckpt_path}"", map_location)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/content/deforum-stable-diffusion/helpers/model_load.py"", line 230, in load_model_from_config
+    pl_sd = torch.load(ckpt, map_location=map_location)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 1521, in load
+    return _load(
+           ^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 2119, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_weights_only_unpickler.py"", line 532, in load
+    self.append(self.persistent_load(pid))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 2083, in persistent_load
+    typed_storage = load_tensor(
+                    ^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 2049, in load_tensor
+    wrap_storage = restore_location(storage, location)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 1859, in restore_location
+    return default_restore_location(storage, map_location)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 698, in default_restore_location
+    result = fn(storage, location)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/serialization.py"", line 637, in _deserialize
+    return obj.to(device=device)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/storage.py"", line 291, in to
+    return _to(self, device, non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_utils.py"", line 101, in _to
+    untyped_storage = torch.UntypedStorage(self.size(), device=device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 14.74 GiB of which 8.12 MiB is free. Process 64082 has 5.67 GiB memory in use. Process 66722 has 5.67 GiB memory in use. Process 70351 has 3.39 GiB memory in use. Of the allocated memory 3.24 GiB is allocated by PyTorch, and 60.48 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+"
+2025-09-07 05:49:58.008693,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/pepsi_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/pepsi_scene.mp4,891.0,failure,"Deforum script failed:
+"
+2025-09-07 05:53:07.011515,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/skybag_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/skybag_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4,1080.5,failure,Output file not created: /content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4
+2025-09-07 05:53:11.943789,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/dove_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/dove_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/dove_scene.mp4,1085.43,failure,"Deforum script failed:
+Traceback (most recent call last):
+  File ""/content/deforum-stable-diffusion/Deforum_Stable_Diffusion.py"", line 77, in <module>
+    import clip
+  File ""/usr/local/lib/python3.12/dist-packages/clip/__init__.py"", line 1, in <module>
+    from .clip import *
+  File ""/usr/local/lib/python3.12/dist-packages/clip/clip.py"", line 10, in <module>
+    from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/__init__.py"", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/models/__init__.py"", line 2, in <module>
+    from .convnext import *
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/models/convnext.py"", line 9, in <module>
+    from ..ops.misc import Conv2dNormActivation, Permute
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/ops/__init__.py"", line 23, in <module>
+    from .poolers import MultiScaleRoIAlign
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/ops/poolers.py"", line 10, in <module>
+    from .roi_align import roi_align
+  File ""/usr/local/lib/python3.12/dist-packages/torchvision/ops/roi_align.py"", line 7, in <module>
+    from torch._dynamo.utils import is_compile_supported
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_dynamo/__init__.py"", line 13, in <module>
+    from . import config, convert_frame, eval_frame, resume_execution
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_dynamo/convert_frame.py"", line 53, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_dynamo/symbolic_convert.py"", line 52, in <module>
+    from torch._dynamo.exc import TensorifyScalarRestartAnalysis
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_dynamo/exc.py"", line 41, in <module>
+    from .utils import counters
+  File ""/usr/local/lib/python3.12/dist-packages/torch/_dynamo/utils.py"", line 69, in <module>
+    import torch.fx.experimental.symbolic_shapes
+  File ""/usr/local/lib/python3.12/dist-packages/torch/fx/experimental/symbolic_shapes.py"", line 3, in <module>
+    import sympy
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/__init__.py"", line 74, in <module>
+    from .polys import (Poly, PurePoly, poly_from_expr, parallel_poly_from_expr,
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/polys/__init__.py"", line 79, in <module>
+    from .polyfuncs import (symmetrize, horner, interpolate,
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/polys/polyfuncs.py"", line 10, in <module>
+    from sympy.polys.specialpolys import (
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/polys/specialpolys.py"", line 298, in <module>
+    from sympy.polys.rings import ring
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/polys/rings.py"", line 30, in <module>
+    from sympy.printing.defaults import DefaultPrinting
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/printing/__init__.py"", line 11, in <module>
+    from .pycode import pycode
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/printing/pycode.py"", line 11, in <module>
+    from .codeprinter import CodePrinter
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/printing/codeprinter.py"", line 13, in <module>
+    from sympy.functions.elementary.complexes import re
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/functions/__init__.py"", line 28, in <module>
+    from sympy.functions.special.error_functions import (erf, erfc, erfi, erf2,
+  File ""/usr/local/lib/python3.12/dist-packages/sympy/functions/special/error_functions.py"", line 21, in <module>
+    from sympy.functions.special.hyper import hyper, meijerg
+  File ""<frozen importlib._bootstrap>"", line 1360, in _find_and_load
+  File ""<frozen importlib._bootstrap>"", line 1331, in _find_and_load_unlocked
+  File ""<frozen importlib._bootstrap>"", line 935, in _load_unlocked
+  File ""<frozen importlib._bootstrap_external>"", line 995, in exec_module
+  File ""<frozen importlib._bootstrap_external>"", line 1128, in get_code
+  File ""<frozen importlib._bootstrap_external>"", line 757, in _compile_bytecode
+KeyboardInterrupt
+"
+2025-09-07 05:53:13.668261,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/amul_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/amul_scene.mp4,1087.15,failure,"Deforum script failed:
+"
+2025-09-07 05:53:13.768606,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/nike_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/nike_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/nike_scene.mp4,1087.25,failure,"Deforum script failed:
+"
+2025-09-07 05:53:14.073565,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-19-30/ola_electric_scooter_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-19-30/ola_electric_scooter_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/ola_electric_scooter_scene.mp4,1087.55,failure,"Deforum script failed:
+"
+2025-09-07 05:58:19.338534,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/pepsi_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/pepsi_scene.mp4,failure,No frames generated
+2025-09-07 05:58:34.767339,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/skybag_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/skybag_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4,failure,No frames generated
+2025-09-07 05:58:49.932973,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/all_scripts.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/all_scripts.mp4,failure,No frames generated
+2025-09-07 05:59:08.555164,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/dove_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/dove_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/dove_scene.mp4,failure,No frames generated
+2025-09-07 05:59:24.911236,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/amul_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/amul_scene.mp4,failure,No frames generated
+2025-09-07 05:59:40.490367,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/nike_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/nike_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/nike_scene.mp4,failure,No frames generated
+2025-09-07 05:59:55.591556,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/script.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/script.mp4,failure,No frames generated
+2025-09-07 06:00:10.641064,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-19-30/ola_electric_scooter_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-19-30/ola_electric_scooter_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/ola_electric_scooter_scene.mp4,failure,No frames generated
+2025-09-07 06:00:26.001717,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-19-30/script.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/script.mp4,failure,No frames generated
+2025-09-07 06:18:36.209842,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/pepsi_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/pepsi_scene.mp4,failure,"CPU fallback error: MoviePy Error: creation of None failed because of the following error:
+
+[Errno 2] No such file or directory: 'unset'.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect"
+2025-09-07 06:19:12.044246,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/skybag_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/skybag_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4,failure,"CPU fallback error: MoviePy Error: creation of None failed because of the following error:
+
+[Errno 2] No such file or directory: 'unset'.
+
+.This error can be due to the fact that ImageMagick is not installed on your computer, or (for Windows users) that you didn't specify the path to the ImageMagick binary in file conf.py, or that the path you specified is incorrect"
+2025-09-07 06:20:42.455930,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/pepsi_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/pepsi_scene.mp4,failure,No frames generated after retries
+2025-09-07 06:21:17.291130,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/skybag_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/skybag_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/skybag_scene.mp4,failure,No frames generated after retries
+2025-09-07 06:21:52.502346,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/all_scripts.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/all_scripts.mp4,failure,No frames generated after retries
+2025-09-07 06:22:28.289568,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/dove_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/dove_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/dove_scene.mp4,failure,No frames generated after retries
+2025-09-07 06:23:03.008888,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/amul_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/amul_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/amul_scene.mp4,failure,No frames generated after retries
+2025-09-07 06:23:38.081375,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/nike_scene.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/nike_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/nike_scene.mp4,failure,No frames generated after retries
+2025-09-07 06:24:13.587246,/content/gdrive/MyDrive/AdProject/data/scene_input/2025-09-02_12-22-52/script.json,/content/gdrive/MyDrive/AdProject/data/processed/ad_scripts/2025-09-02_12-22-52/pepsi_script.txt,/content/gdrive/MyDrive/AdProject/data/generated_videos/script.mp4,failure,No frames generated after retries
